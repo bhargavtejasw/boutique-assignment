@@ -9,3 +9,7 @@ ISSUE3 -
 pending issue by redis-cart service solved it by removing the editing the deployment file ,removed node selector line from redis deployment as its not present 
 then its started working 
  removed this -->Node-Selectors:   kubernetes.io/hostname=test-worker-2
+
+ISSUE4-
+again crashloopbackoff error by productcatalogservice ,solved by analysising kubectl  service logs
+
