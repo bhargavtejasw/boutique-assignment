@@ -11,6 +11,26 @@ You are supposed to go through this document, understand the problem statement c
 The E-commerce website `Online Boutique` is a microservices-based application that has 11 microservices. These microservices are supposed to be deployed on a Kubernetes cluster using [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and their respective [Services](https://kubernetes.io/docs/concepts/services-networking/service/) to expose them internally in the cluster. There is one additional service (named `frontend-external` of type `NodePort`) used to expose the application outside of the cluster.
 
 
+### submission-
+
+check SOLUTION.MD for errors and issues solved 
+and test/load-generator.txt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Your goals are to
 
 1. Create a multi-node Kubernetes cluster (using kind) and deploy the application on it.
