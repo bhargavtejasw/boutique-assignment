@@ -8,4 +8,4 @@ crashbackoff error by cart service , solved by some kubectl logs analysis
 ISSUE3 -
 pending issue by redis-cart service solved it by removing the editing the deployment file ,removed node selector line from redis deployment as its not present 
 then its started working 
-Node-Selectors:   kubernetes.io/hostname=test-worker-2
+ removed this -->Node-Selectors:   kubernetes.io/hostname=test-worker-2
